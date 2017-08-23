@@ -1,0 +1,26 @@
+.headerEditable {
+  margin-top: 10px;
+  background: #78c5d5;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .headerEditable h2 {
+    font-family: Roboto,sans-serif;
+    color: white;
+    margin: auto 0;
+    font-size: 1.5em; }
+    .headerEditable > button {
+      background: none;
+      border: none;
+      color: white;
+    }
+    .headerEditable > button:hover {
+      cursor: pointer;
+    }
+
+.contentEditable {
+  background: #f4f7f6;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 20px; }

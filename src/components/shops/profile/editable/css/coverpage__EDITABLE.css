@@ -1,0 +1,61 @@
+.coverPage__EDITABLE {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+
+  .coverPage__EDITABLE > .COVERPAGE_EDITABLE-header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 20;
+    padding: 0;
+  }
+  .COVERPAGE_EDITABLE-header > #file{
+    display: none
+  }
+  .COVERPAGE_EDITABLE-header > label:hover{
+    cursor: pointer;
+  }
+  .COVERPAGE_EDITABLE-header > label{
+    margin: 0;
+    font-size: 30px;
+    margin: 2px 5px;
+    color: white;
+  }
+  .COVERPAGE_EDITABLE-header > span{
+    color: white;
+  }
+  .COVERPAGE_EDITABLE-header > button:hover{
+    cursor: pointer;
+  }
+  .COVERPAGE_EDITABLE-header > button{
+    display: none;
+    background: white;
+    border: none;
+    padding: 6px;
+    margin: 2px 5px;
+    border-radius: 4px;
+  }
+  .COVERPAGE_EDITABLE-header > #x{
+    color: rgb(230, 25, 25)
+  }
+
+  .COVERPAGE_EDITABLE-header > #v{
+    color: rgb(90, 200, 15)
+  }
+  .coverPage__EDITABLE > .shopName {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .coverPage__EDITABLE > .shopName h1 {
+      color: white;
+      text-align: center;
+      font-size: 10vw 5vmin;
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid white;
+      padding: 5px; }

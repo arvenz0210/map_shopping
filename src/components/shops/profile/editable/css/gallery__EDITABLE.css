@@ -1,0 +1,91 @@
+.gallery__EDITABLE{
+
+}
+
+.gallery_content__EDITABLE{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px
+}
+#formGallery{
+}
+.gallery_item_EDITABLE{
+  margin: 20px;
+
+}
+.gallery_item_EDITABLE img{
+  width: 250px;
+  height: 150px;
+}
+
+.gallery_form__EDITABLE{
+  background: #fafafa;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery_form__EDITABLE > input{
+  display: none;
+}
+
+.gallery_form__EDITABLE > button{
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+}
+
+#v{
+  color: rgb(90, 200, 15)
+}
+#x{
+  color: rgb(230, 25, 25)
+}
+.gallery_form__EDITABLE > button:hover{
+  cursor: pointer;
+}
+
+.gallery_content__EDITABLE  .gallery_addItem_EDITABLE{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+
+}
+#fileName{
+  margin: auto 0;
+  padding: 0;
+}
+.gallery_content__EDITABLE > label{
+  background: #fafafa;
+  padding: 0;
+  margin: 0;
+  transition: 0.3s all ease;
+}
+.gallery_content__EDITABLE > label img {
+  height: 70%;
+  width: auto;
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.delete{
+  padding: 4px;
+  background: rgb(237, 69, 52);
+  position: absolute;
+  color: white;
+  border-radius: 5px
+}
+
+.delete:hover{
+  cursor: pointer;
+}
+
+.gallery_content__EDITABLE > label:hover{
+  cursor: pointer;
+  background: #e6e3e3
+}

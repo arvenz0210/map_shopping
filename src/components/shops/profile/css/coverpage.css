@@ -1,0 +1,19 @@
+.coverPage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+  .coverPage .shopName {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .coverPage .shopName h1 {
+      color: white;
+      text-align: center;
+      font-size: 10vw 5vmin;
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid white;
+      padding: 5px; }

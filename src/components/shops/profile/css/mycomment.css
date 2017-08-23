@@ -1,0 +1,76 @@
+.myComment {
+  margin-top: 10px;
+  margin-bottom: 50px;
+ }
+  .myComment .PROFILE_img {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   }
+    .myComment .PROFILE_img img {
+      width: 75px;
+      border-radius: 50%; }
+        .myComment .inputs{
+          width: 100%;
+        }
+  .myComment .inputs .np {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .myComment .inputs .np .points {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0; }
+      .myComment .inputs .np .points p {
+        margin: 0;
+        font-size: 14px;
+        margin-right: 10px
+       }
+      .myComment .inputs .np .points span {
+        color: #78c5d5; }
+    .myComment .inputs .np > p {
+      margin: 0;
+      font-weight: normal;
+      font-size: 24px; }
+      .myComment .inputs form{
+        width: 100%;
+      }
+  .myComment .inputs form #text {
+    width: 100%;
+    font-size: 16px;
+    height: 80px;
+    padding: 1px; }
+  .myComment .inputs form .buttonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; }
+    .myComment .inputs form .buttonContainer #button {
+      border: none;
+      background: #9598cb;
+      color: white;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      margin-top: 10px;
+      padding: 10px;
+      transition: ease 0.2s all}
+    .myComment .inputs form .buttonContainer #button:hover{
+      background: #8083ba;
+      cursor: pointer;
+    }
+
+@media (max-width: 768px){
+  .sub-myComment{
+    flex-wrap: wrap;
+  }
+  .np{
+    flex-direction: column!important;
+  }
+  .PROFILE_img{
+    margin: 0;
+  }
+
+}

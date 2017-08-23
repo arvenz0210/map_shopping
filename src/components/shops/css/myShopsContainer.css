@@ -1,0 +1,38 @@
+.MY_SHOP_CONTAINER-itemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.MY_SHOP_CONTAINER-item{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.MY_SHOP_CONTAINER-item:hover img{
+  transition: all ease 0.5s;
+  filter: blur(3px);
+}
+.MY_SHOP_CONTAINER-item h2{
+  filter: none!important;
+  position: absolute;
+  z-index: 2;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 300;
+  color: black;
+  background: rgba(255,255,255,0.6);
+  width: 310px;
+  padding: 10px
+}
+
+.MY_SHOP_CONTAINER-item img{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 310px;
+  height: 310px;
+}

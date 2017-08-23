@@ -1,0 +1,64 @@
+.offerItem {
+  margin: 10px;
+  background: white;
+}
+.offerItem:hover{
+  transition: all ease 0.4s;
+  text-decoration: none;
+  background: rgb(239, 239, 240);
+}
+
+.offerItem .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+}
+.offerItem .img img {
+  width: 120px;
+  height: auto;
+  max-height: 120px;
+}
+.offerItem .info {
+  width: 100%;
+  max-width: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.offerItem .info h3{
+  font-size: 16px;
+  color: #008080;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.offerItem .info .desc p{
+  font-size: 14px;
+  line-height: 100%;
+}
+.offerItem .info .cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  width: 130px;
+  }
+
+.offerItem .info .discount{
+  margin-left: 10px;
+  position: relative;
+  float: right;
+  background: rgb(252, 1, 31);
+  font-weight: 400;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.offerItem .info .finalPrice{
+  font-size: 16px;
+}
+.offerItem .info .cont a:hover{
+  cursor: pointer;
+}

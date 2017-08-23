@@ -1,0 +1,7 @@
+.offerItemContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}

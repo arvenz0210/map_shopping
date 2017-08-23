@@ -1,0 +1,7 @@
+.offerItemContainer{
+  display: block;
+  background: #fafafa;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}

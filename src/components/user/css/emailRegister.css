@@ -1,0 +1,54 @@
+.REGISTER-EMAIL_container{
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.REGISTER-EMAIL_container > p{
+  font-size: 18px;
+}
+.REGISTER-EMAIL_inputRow{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.REGISTER-EMAIL_inputRow > p{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.REGISTER-EMAIL_inputRow > input{
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.REGISTER-EMAIL_btn{
+  background: #78c5d5;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 18px;
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+
+}
+
+.REGISTER-EMAIL_btn:hover{
+  cursor: pointer;
+}
+
+.REGISTER-EMAIL_container > a{
+  margin-top: 20px;
+  font-size: 14px;
+}

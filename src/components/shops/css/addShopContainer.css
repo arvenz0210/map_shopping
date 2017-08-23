@@ -1,0 +1,72 @@
+.ADD_SHOP-container{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+.algo{
+  cursor: crosshair;
+}
+.ADD_SHOP-map{
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+.ADD_SHOP-form{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.ADD_SHOP-row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: center;
+  margin: 15px 0
+}
+.ADD_SHOP-row p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.ADD_SHOP-row input{
+  font-weight: 300;
+  border: none;
+  background: none;
+  border-bottom: 1px solid gray;
+  padding-left: 5px;
+}
+
+.ADD_SHOP-btn-create{
+  background: #9598cb;
+  font-size: 14px;
+  color: white;
+  margin: 40px;
+  align-self: center;
+  padding: 14px 24px;
+  border-radius: 2px;
+  border: none;
+  transition: all ease 0.5s
+}
+.ADD_SHOP-btn-create:hover{
+  background: #6f72ad;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .ADD_SHOP-row {
+    width: 100%;
+  }
+  .ADD_SHOP-form{
+    width: 100%;
+  }
+  .ADD_SHOP-map{
+    width: 100%;
+    height: 200px;
+  }
+}
